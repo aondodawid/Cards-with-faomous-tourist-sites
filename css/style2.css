@@ -1,0 +1,89 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #788697;
+  background-image: linear-gradient(#FBAB7E, #F7CE68);
+  box-sizing: border-box;
+}
+
+section {
+  margin: 5% auto;
+  padding: 8px;
+  width: 300px;
+  background-color: #FAFAFA;  
+  border: 1px solid #BACDD8;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+.button-container {
+  display: flex;
+  align-items: center;
+}
+button {  
+  cursor: pointer;
+  border: 1px solid ;
+  border-color: #E5EAED;
+  box-sizing: border-box;
+  background-color: #FAFAFA;  
+  color: #788697;
+  border-radius: 50px;
+  transition: all 0,4s;
+
+}
+.button-small {
+  height: 24px;
+  width: 57px;
+
+}
+.button-middle {
+  height: 24px;
+  width: 74px;
+
+}
+.button-blue {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #0077FF;
+  background: #E0EFFF;
+  border-radius: 50px;
+  width: 105px;
+  height:43px;
+  margin: 22px 97px; 
+}
+h1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #0E2632;
+  margin: 5px;
+}
+p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 5px;
+}
+.button-small:hover, .button-middle:hover {
+  background: #788697;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.16);
+  color: #E5EAED;
+}
+.button-blue:hover {
+  box-shadow: 0px 4px 10px rgba(0, 119, 255, 0.25);
+  background-color: #0077FF;
+  color: #E0EFFF;
+
+}  
